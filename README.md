@@ -6,7 +6,8 @@ The first step is to manually divide the training images and xmls into a testing
 
 In an AnacondaPrompt window navigate to your vessel_detection workspace and generate the label maps for both the training and testing images using the following commands substituting in your correct paths to images and annotations folders:
 
-```python generate_tfrecord.py -x Path/to/imagesfolder/train -l Path/to/annotationsfolder/label_map.pbtxt -o Path/to/annotationsfolder/train.record
+```
+python generate_tfrecord.py -x Path/to/imagesfolder/train -l Path/to/annotationsfolder/label_map.pbtxt -o Path/to/annotationsfolder/train.record
 python generate_tfrecord.py -x Path/to/imagesfolder/test -l Path/to/annotationsfolder/label_map.pbtxt -o Path/to/annotationsfolder/test.record
 ```
 
