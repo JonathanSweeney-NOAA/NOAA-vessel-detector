@@ -7,16 +7,16 @@ Once Tensorflow is intalled and working, create the following directory structur
 ```
 workspace/
 └─ vessel_detection/
-│  ├─ annotations/
-|     └─ xmls
-│  ├─ exported_models/
-│  ├─ images/
-|     ├─ matched
-|     ├─ raw
-|     ├─ test
-|     └─ train
-│  ├─ models/
-│  └─ pre-trained-models
+   ├─ annotations/
+   |  └─ xmls
+   ├─ exported_models/
+   ├─ images/
+   |  ├─ matched
+   |  ├─ raw
+   |  ├─ test
+   |  └─ train
+   ├─ models/
+   └─ pre-trained-models
 ```
 
 ## Training instructions
