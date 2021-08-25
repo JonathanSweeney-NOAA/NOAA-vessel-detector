@@ -1,0 +1,4 @@
+# jpgs and xmls which are stored seperately as data
+*.jpg
+*.jpeg
+*.xml
