@@ -1,6 +1,24 @@
 # NOAA-vessel-detector
 A tool to detect vessels from high resolution satellite imagery
 
+## Directory structure
+Once Tensorflow is intalled and working, create the following directory structure inside /ProgramData/Anaconda3/Lib/site-packages/tensorflow/models/ to house the various components of the project.
+
+```
+workspace/
+└─ vessel_detection/
+│  ├─ annotations/
+|     └─ xmls
+│  ├─ exported_models/
+│  ├─ images/
+|     ├─ matched
+|     ├─ raw
+|     ├─ test
+|     └─ train
+│  ├─ models/
+│  └─ pre-trained-models
+```
+
 ## Training instructions
 The first step is to manually divide the training images and xmls into a testing and training subset housed in images/train and images/test.  I recommend a 90/10 split training/testing.
 
