@@ -51,3 +51,7 @@ python exporter_main_v2.py --input_type image_tensor --pipeline_config_path=mode
 ```
 
 This will save the trained model to exported_models/my_model.
+
+## Model evaluation
+
+![eval](test_eval.jpg)
